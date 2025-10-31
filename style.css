@@ -126,3 +126,28 @@ body {
     font-size: 1rem;
   }
 }
+
+.about {
+  background: linear-gradient(180deg, #ffffff, #f3f3f3);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 15px;
+}
+
