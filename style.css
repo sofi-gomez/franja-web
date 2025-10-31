@@ -1,0 +1,128 @@
+/* --- RESET --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- BASE --- */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #2b2b2b;
+  background: #f9f9fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- HEADER --- */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background: linear-gradient(135deg, #4b0082, #7b2cbf);
+  color: white;
+  width: 100%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero .logo {
+  width: 110px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: white;
+  padding: 8px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  opacity: 0.95;
+}
+
+/* --- LINKS --- */
+.links-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.link-card {
+  display: block;
+  text-align: center;
+  background: white;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #4b0082;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.link-card:hover {
+  background: #7b2cbf;
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* --- FOOTER --- */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #2e0348;
+  color: #ddd;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.social {
+  margin: 0.5rem 0;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.copy {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .link-card {
+    font-size: 1rem;
+  }
+}
